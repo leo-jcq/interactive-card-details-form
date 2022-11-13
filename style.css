@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
 
 :root {
     /* Primary */
@@ -26,6 +26,7 @@ body {
     min-height: 100vh;
 
     font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
 
     position: relative;
 
@@ -293,7 +294,6 @@ main {
     font-size: 15px;
     font-weight: 500;
     text-transform: unset;
-    letter-spacing: auto;
     color: var(--dark-grayish-violet);
 }
 
