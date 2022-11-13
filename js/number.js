@@ -42,10 +42,10 @@ function verify_number() {
         numberError.style.display = 'block';
         // Add spaces every 4 characters on the live card and 0s to complete the card number
         cardNumbers.innerHTML = '';
+        cardNumbers.innerHTML += noSpaceNumber;
         for (let i = 16 - noSpaceNumber.length; i > 0; i--) {
             cardNumbers.innerHTML += '0';
         }
-        cardNumbers.innerHTML += noSpaceNumber;
         cardNumbers.innerHTML = cardNumbers.innerHTML.replace(/(.{4})/g, '$1 ').trim();
         return false;
     } else {
