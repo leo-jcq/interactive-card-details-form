@@ -49,7 +49,7 @@ body {
 /* front card */
 #front-card {
     bottom: 50vh;
-    left: 150px;
+    left: 8%;
     z-index: 2;
 
     background-image: url(./images/bg-card-front.png);
@@ -104,7 +104,7 @@ body {
 /* back card */
 #back-card {
     top: 55vh;
-    left: 250px;
+    left: 13%;
 
     background-image: url(./images/bg-card-back.png);
 }
@@ -126,6 +126,15 @@ body {
     letter-spacing: .15rem;
 }
 
+/* main image */
+body>img {
+    overflow: hidden;
+}
+
+#mobile {
+    display: none;
+}
+
 /* Right section */
 main {
     width: 50%;
@@ -142,6 +151,8 @@ main {
     grid-gap: 20px;
     grid-column: 1;
     grid-row: 4;
+    
+    padding: 50px;
 }
 
 .form-container {
@@ -313,12 +324,4 @@ main {
     letter-spacing: .1rem;
 
     cursor: pointer
-}
-
-/* Media queries */
-/* keep the main in its position when the screen is not wide enough */
-@media (max-widht: 1500px) {
-    main {
-        width: 750px;
-    }
 }
