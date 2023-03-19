@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/card-form-using-native-js-ufH6XIqFBo](https://www.frontendmentor.io/solutions/card-form-using-native-js-ufH6XIqFBo)
+- Live Site URL: [https://leo-jcq.github.io/interactive-card-details-form/](https://leo-jcq.github.io/interactive-card-details-form/)
 
 ## My process
 
